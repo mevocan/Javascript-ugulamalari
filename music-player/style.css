@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 450px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volume-container i{
+margin-right: 5px;}
+
+li.playing {
+    background-color: #0b5eb7;
+    color: #fff;
+}
+.material-icons {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+.material-symbols-outlined{
+    font-size: 32px;
+}
